@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginForm"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="網路（IP） :"
+        android:textSize="10pt"
+        />
+    <!-- Input Dialog -->
+    <EditText
+        android:id="@+id/ipedittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="input your home server ip"
+        android:selectAllOnFocus="true"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="藍芽（Bluetooth） :"
+        android:textSize="10pt"
+        />
+    <EditText
+        android:id="@+id/bttext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="input your bluetooth id"
+        android:selectAllOnFocus="true"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="影像壓縮率（Image） :"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/resolution"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image Resolution Range 10 ~ 25 "
+        android:selectAllOnFocus="true"/>
+
+
+</LinearLayout>
